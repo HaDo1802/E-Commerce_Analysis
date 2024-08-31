@@ -1,7 +1,7 @@
 # SQL-PBI_Inventory_Controlling
 Please see the pdf files attached above
 
-I. Introduction
+I. # Introduction
 
 1. Business question
 
@@ -13,15 +13,16 @@ Dataset: adventureworks2019 (public Google BigQuery dataset)
 
 Dataset dictionary: Please reach file "Data Dictionary" attached above
 
-Dataset Schema: https://i0.wp.com/improveandrepeat.com/wp-content/uploads/2018/12/AdvWorksOLTPSchemaVisio.png?ssl=1
+Dataset Schema: https://i0.wp.com/improveandrepeat.com/wp-
+content/uploads/2018/12/AdvWorksOLTPSchemaVisio.png?ssl=1
 
 Dataset access:
-
-Log in to your Google Cloud Platform account and create a new project.
-Navigate to the BigQuery console and select your newly created project.
-In the navigation panel, select "Add Data" and then "Star a project by name".
-Enter the project name "adventurework2019"
-II. Apply design thinking mindset
+- Log in to your Google Cloud Platform account and create a new project.
+- Navigate to the BigQuery console and select your newly created project.
+- In the navigation panel, select "Add Data" and then "Star a project by name".
+- Enter the project name "adventurework2019"
+  
+II. # Apply design thinking mindset
 
 1. Empathize
 
