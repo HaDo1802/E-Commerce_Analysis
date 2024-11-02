@@ -138,7 +138,7 @@ UNNEST(hits.product) as product
 
 <div id='cau6'/>
   
-## 6. Ask questions and solve it
+## 6. Business=questions and Solution
 **6.1 calculate total visits, pageview, transaction, and revenue for Jan, Feb, and March 2017**
 
 ~~~~sql
