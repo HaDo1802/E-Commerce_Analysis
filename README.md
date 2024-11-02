@@ -12,12 +12,11 @@
 <div id='data'/>
   
 ## 1. Introduction and Motivation
+How much time do you go online? For entertainment, shopping work, or just for searching? The inspiration for this project came from my curiosity on these aspects of the internet websites. As someone with a background in Finance and Analytics, I realized that understanding customer  is essential for business development, especially in the growing e-commerce era. This motivated me to create a solution that would dive deeper into the e-commerce industry by understanding customers behavior via revelant metrics.
 
-The eCommerce dataset is stored in a public Google BigQuery dataset. This dataset contains information about user sessions on a website collected from Google Analytics in 2017.
+The eCommerce dataset is stored in a public Google BigQuery dataset. This dataset contains information about user sessions on a website collected from Google Analytics in 2017. Based on the eCommerce dataset, I perform queries to analyze website activity in 2017, such as calculating bounce rate, identifying days with the highest revenue, analyzing user behavior on pages, and various other types of analysis. This project aims to have an outlook on the business situation, marketing activity efficiency analyzing the products.
 
-Based on the eCommerce dataset, the author perform queries to analyze website activity in 2017, such as calculating bounce rate, identifying days with the highest revenue, analyzing user behavior on pages, and various other types of analysis. This project aims to have an outlook on the business situation, marketing activity efficiency analyzing the products.
-
-To query and work with this dataset, the author uses the Google BigQuery tool to write and execute SQL queries.
+To query and work with this dataset, I uses the Google BigQuery tool to write and execute SQL queries.
 
 <div id='clean_data'/>
   
@@ -159,7 +158,7 @@ UNNEST(hits.product) as product
 | 201702 | 62192  | 233373    | 733          | 116111.6  |
 | 201703 | 69931  | 259522    | 993          | 150224.7  |
 
-The table provides a snapshot of The eCommerce website performance over the first few months of 2017, including visits, pageviews, transactions, and revenue metrics. The author derive some insights from the provided monthly data:
+The table provides a snapshot of The eCommerce website performance over the first few months of 2017, including visits, pageviews, transactions, and revenue metrics. The I derive some insights from the provided monthly data:
 
  **Traffic and Engagement Patterns**: The number of visits and pageviews increased from January (`201701`) to March (`201703`), suggesting a growing website interest over time. Besides that, the increase in pageviews is a positive sign, indicating that users explore multiple pages during their visits, potentially finding the content engaging.
  
@@ -730,7 +729,7 @@ ORDER BY revenue DESC;
 | Month     | 201706 | meetup.com                    |          |
 | Month     | 201706 | plus.google.com               |          |
 
-This table represents revenue data collection with various attributes, including time type, time period, source, and revenue amount. Each row corresponds to a specific time period (week or month) and provides information about the revenue generated from different sources during that time period. The author found the insights bellow through the table above.
+This table represents revenue data collection with various attributes, including time type, time period, source, and revenue amount. Each row corresponds to a specific time period (week or month) and provides information about the revenue generated from different sources during that time period. The I found the insights bellow through the table above.
 
  **Direct Revenue and Source Breakdown:** The dataset includes revenue from various sources, such as (direct), Google, DFA, mail.google.com, and search engines like myway.com. Revenue comes from different sources, including direct website visits, organic search traffic, and referrals from various websites.
  
@@ -966,11 +965,11 @@ However, the add-to-cart rate and purchase rate are notably higher in March 2017
   
 ## 7. Conclusion
 
-- This is the author's opportunity to learn about the marketing industry and the customer journey through this e-commerce dataset
+- This is the  opportunity to learn about the marketing industry and the customer journey through this e-commerce dataset
 
-- In analyzing the e-commerce dataset using BigQuery, the author understands customer behavior through the bounce rate, transaction, revenue, visit, and purchase.
+- In analyzing the e-commerce dataset using BigQuery, I understands customer behavior through the bounce rate, transaction, revenue, visit, and purchase.
   
-- The author gained insights into which marketing channels drive traffic and sales by examining referral sources. Investing resources in effective channels and optimizing underperforming ones can improve marketing ROI.
+- I gained insights into which marketing channels drive traffic and sales by examining referral sources. Investing resources in effective channels and optimizing underperforming ones can improve marketing ROI.
 
 - In conclusion, exploring the e-commerce dataset on BigQuery unearthed a wealth of insights critical for strategic decision-making to help the business can optimize operations, enhance customer experiences, and drive revenue.
 
